@@ -1,0 +1,269 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Dancing Script", cursive;
+}
+.navbar{
+    display: flex;
+    width: 85%;
+    justify-content:space-between;/*space between tye child*/
+    margin-left: 100px;
+    align-items: center;/*vertically center*/
+}
+.listitem{
+    display: inline-block;/*place each element side by side*/
+    margin: 10px 20px;
+    
+}
+input{
+    width: 190px;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid #d0d7de;
+}
+
+.container{
+    background-color: aqua;
+    
+}
+
+.main{
+    position: relative;
+    }
+/* .heading{
+    width: 40%; 
+     padding: 30px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 20px;   
+} */
+
+
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    color: red;
+    
+}
+.image img{
+    padding: 100px;
+
+    /* position: absolute;
+    width: 300px;
+    height: 380px;
+    background: 0 15px 45px rgb(0,0, 0, 0, 1);
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    border-radius: 30px; */
+}
+/* .image img:hover{
+    width: 100px;
+} */
+.card
+{
+    /* width: 300px;
+    height: 300px; */
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    /* position: absolute; */
+    background-color: bisque;
+    
+    position: absolute;
+    width: 300px;
+    height: 380px;
+    background: 0 15px 45px rgb(0,0, 0, 0, 1);
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    border-radius: 30px;
+    z-index: 50;
+}
+
+.card:hover{
+        width: 100px;
+    }
+
+.image{
+    position: relative;   
+}
+.card1{
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: bisque;
+    position: absolute;
+    width: 300px;
+    height: 380px;
+    background: 0 15px 45px rgb(0,0, 0, 0, 1);
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    border-radius: 30px;
+    z-index: 50;
+    
+    
+
+}
+.image1{
+    position: relative;
+    padding: 100px;
+    
+}
+.card1:hover{
+    width: 100px;
+}
+.menu{
+    width: 100%;
+    background-repeat: repeat;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/originals/15/1a/2e/151a2ee727935d4e039050d4fb7fa513.jpg ')
+    
+    
+    
+}
+.card2{
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: bisque;
+    width: 300px;
+    height: 380px;
+    position: absolute;
+    z-index: 50;
+    background: 0 15px 45px rgb(0,0, 0, 0, 1);
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    border-radius: 30px;
+    
+}
+.image2{
+    padding: 100px;
+    position: relative;
+
+}
+.card2:hover{
+    width: 100px;
+}
+.gif{
+    padding-top: 20px;
+    display: flex;
+    justify-content: end;
+    background-color: aquamarine;
+}
+.gif p{
+    font-size: larger;
+    padding-left: 20px;
+    padding-top: 100px;
+    text-shadow: 10vh;
+    
+}
+.last{
+    padding: 100px;
+}
+.footer{
+    border: 1px solid;
+    padding-left: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height:350px;
+    padding-top: 10px;
+}
+
+.icon-set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     /* justify-content: space-between; */
+    
+     margin-top: 3%;
+     text-decoration: none;
+    font-size: 40px;
+    
+    
+} 
+.icon a{
+    text-decoration: none;
+}
+
+.last1{
+    background-color: grey;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.last{
+    background-color: aquamarine;
+}
+ .icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+    color: black;  
+    font-size: 30px; 
+    margin-bottom: 20px;
+    
+    
+} 
+
+
+ .privacy h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+
+ .icon:hover{
+    background-image: linear-gradient(to top left, rgb(98, 0, 255), yellow);
+
+}
+.form1 input{
+    width: 290px;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid #d0d7de;
+   
+   
+}
+.icon:hover a{
+    color: white;
+    animation: shake 0.75s;
+    
+    
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
